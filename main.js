@@ -352,7 +352,7 @@ const environment = {
     production: false,
     firebaseconfig: {
         apiKey: "AIzaSyDP4PI-jYkt8DOgncxUqO6hDqyqkWLu2tk",
-        authDomain: "sistema-seguranca-trabalho.firebaseapp.com",
+        authDomain: "matheusxs.github.io",
         projectId: "sistema-seguranca-trabalho",
         storageBucket: "sistema-seguranca-trabalho.appspot.com",
         messagingSenderId: "1057029791819",
