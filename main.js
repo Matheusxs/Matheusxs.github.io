@@ -286,6 +286,55 @@ LoginComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
 
 /***/ }),
 
+/***/ "9HOZ":
+/*!*******************************************************!*\
+  !*** ./src/app/Componetes/rodape/rodape.component.ts ***!
+  \*******************************************************/
+/*! exports provided: RodapeComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RodapeComponent", function() { return RodapeComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var primeng_card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! primeng/card */ "QIUk");
+
+
+
+class RodapeComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+RodapeComponent.ɵfac = function RodapeComponent_Factory(t) { return new (t || RodapeComponent)(); };
+RodapeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: RodapeComponent, selectors: [["app-rodape"]], decls: 12, vars: 0, consts: [[1, "footer"], [2, "text-align", "center"]], template: function RodapeComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p-card", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "p", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " Vers\u00E3o 0.0.2 beta ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " Equipe de Desenvolvimento ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " Vinicius Salerno ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, " Matheus de Carvalho ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, " Gabriel Silva ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, directives: [primeng_card__WEBPACK_IMPORTED_MODULE_1__["Card"]], styles: [".footer[_ngcontent-%COMP%], .push[_ngcontent-%COMP%] {\r\n    height: 50px;\r\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJvZGFwZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7RUFDRTs7SUFFRSxZQUFZO0VBQ2QiLCJmaWxlIjoicm9kYXBlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuICAuZm9vdGVyLFxyXG4gIC5wdXNoIHtcclxuICAgIGhlaWdodDogNTBweDtcclxuICB9Il19 */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](RodapeComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-rodape',
+                templateUrl: './rodape.component.html',
+                styleUrls: ['./rodape.component.css']
+            }]
+    }], function () { return []; }, null); })();
+
+
+/***/ }),
+
 /***/ "AytR":
 /*!*****************************************!*\
   !*** ./src/environments/environment.ts ***!
@@ -337,6 +386,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var src_app_Servicos_auth_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/app/Servicos/auth.service */ "1/J7");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "tyNb");
 /* harmony import */ var _menu_menu_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../menu/menu.component */ "IDV5");
+/* harmony import */ var _rodape_rodape_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../rodape/rodape.component */ "9HOZ");
+
 
 
 
@@ -354,9 +405,11 @@ class HomeComponent {
     }
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_Servicos_auth_service__WEBPACK_IMPORTED_MODULE_1__["AuthService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"])); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 1, vars: 0, template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 3, vars: 0, consts: [[1, "wrapper"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-menu");
-    } }, directives: [_menu_menu_component__WEBPACK_IMPORTED_MODULE_3__["MenuComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJob21lLmNvbXBvbmVudC5jc3MifQ== */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-rodape");
+    } }, directives: [_menu_menu_component__WEBPACK_IMPORTED_MODULE_3__["MenuComponent"], _rodape_rodape_component__WEBPACK_IMPORTED_MODULE_4__["RodapeComponent"]], styles: [".wrapper[_ngcontent-%COMP%] {\r\n    min-height: 100%;\r\n  \r\n    \r\n    margin-bottom: -50px;\r\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImhvbWUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGdCQUFnQjs7SUFFaEI7cUVBQ2lFO0lBQ2pFLG9CQUFvQjtFQUN0QiIsImZpbGUiOiJob21lLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIud3JhcHBlciB7XHJcbiAgICBtaW4taGVpZ2h0OiAxMDAlO1xyXG4gIFxyXG4gICAgLyogRXF1YWwgdG8gaGVpZ2h0IG9mIGZvb3RlciAvXHJcbiAgICAvIEJ1dCBhbHNvIGFjY291bnRpbmcgZm9yIHBvdGVudGlhbCBtYXJnaW4tYm90dG9tIG9mIGxhc3QgY2hpbGQgKi9cclxuICAgIG1hcmdpbi1ib3R0b206IC01MHB4O1xyXG4gIH0iXX0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HomeComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -383,7 +436,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var src_app_Servicos_auth_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/app/Servicos/auth.service */ "1/J7");
 /* harmony import */ var primeng_menubar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! primeng/menubar */ "b1Ni");
 /* harmony import */ var primeng_api__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! primeng/api */ "7zfz");
-/* harmony import */ var primeng_button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! primeng/button */ "jIHw");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "tyNb");
+/* harmony import */ var primeng_button__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! primeng/button */ "jIHw");
+
 
 
 
@@ -391,9 +446,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function MenuComponent_ng_template_1_Template(rf, ctx) { if (rf & 1) {
-    const _r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p-button", 2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function MenuComponent_ng_template_1_Template_p_button_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r2); const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r1.authService.SignOut(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "a", 3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
+function MenuComponent_ng_template_2_Template(rf, ctx) { if (rf & 1) {
+    const _r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p-button", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function MenuComponent_ng_template_2_Template_p_button_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3); const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r2.authService.SignOut(); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
 class MenuComponent {
@@ -405,23 +465,28 @@ class MenuComponent {
         this.items = [
             {
                 label: 'Área do aluno',
-                icon: 'pi pi-fw pi-pencil'
+                icon: 'pi pi-user'
             },
             {
-                label: 'Informações Gerais',
-                icon: 'pi pi-fw pi-pencil'
-            }
+                label: 'Informações',
+                icon: 'pi pi-book'
+            },
+            {
+                label: 'Turma',
+                icon: 'pi pi-users'
+            },
         ];
     }
 }
 MenuComponent.ɵfac = function MenuComponent_Factory(t) { return new (t || MenuComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_Servicos_auth_service__WEBPACK_IMPORTED_MODULE_1__["AuthService"])); };
-MenuComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MenuComponent, selectors: [["app-menu"]], decls: 2, vars: 1, consts: [[3, "model"], ["pTemplate", "end"], ["label", "Sair", 3, "click"]], template: function MenuComponent_Template(rf, ctx) { if (rf & 1) {
+MenuComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MenuComponent, selectors: [["app-menu"]], decls: 3, vars: 1, consts: [[3, "model"], ["pTemplate", "start"], ["pTemplate", "end"], ["routerLink", "/", "routerLinkActive", "active"], ["src", "../../../assets/Logo.jpeg", "height", "40", 1, "p-mr-2"], ["label", "Sair", 3, "click"]], template: function MenuComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p-menubar", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, MenuComponent_ng_template_1_Template, 1, 0, "ng-template", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, MenuComponent_ng_template_1_Template, 2, 0, "ng-template", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, MenuComponent_ng_template_2_Template, 1, 0, "ng-template", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("model", ctx.items);
-    } }, directives: [primeng_menubar__WEBPACK_IMPORTED_MODULE_2__["Menubar"], primeng_api__WEBPACK_IMPORTED_MODULE_3__["PrimeTemplate"], primeng_button__WEBPACK_IMPORTED_MODULE_4__["Button"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJtZW51LmNvbXBvbmVudC5jc3MifQ== */"] });
+    } }, directives: [primeng_menubar__WEBPACK_IMPORTED_MODULE_2__["Menubar"], primeng_api__WEBPACK_IMPORTED_MODULE_3__["PrimeTemplate"], _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterLinkWithHref"], _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterLinkActive"], primeng_button__WEBPACK_IMPORTED_MODULE_5__["Button"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJtZW51LmNvbXBvbmVudC5jc3MifQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](MenuComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -499,6 +564,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Componetes_validar_email_validar_email_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./Componetes/validar-email/validar-email.component */ "jVCA");
 /* harmony import */ var _Componetes_menu_menu_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./Componetes/menu/menu.component */ "IDV5");
 /* harmony import */ var _Componetes_home_home_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./Componetes/home/home.component */ "B36T");
+/* harmony import */ var _Componetes_rodape_rodape_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./Componetes/rodape/rodape.component */ "9HOZ");
 //Modulos do Angular
 
 
@@ -516,6 +582,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 //Componetes do Sistema
+
 
 
 
@@ -552,7 +619,8 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
         _Componetes_cadastro_cadastro_component__WEBPACK_IMPORTED_MODULE_15__["CadastroComponent"],
         _Componetes_validar_email_validar_email_component__WEBPACK_IMPORTED_MODULE_16__["ValidarEmailComponent"],
         _Componetes_menu_menu_component__WEBPACK_IMPORTED_MODULE_17__["MenuComponent"],
-        _Componetes_home_home_component__WEBPACK_IMPORTED_MODULE_18__["HomeComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+        _Componetes_home_home_component__WEBPACK_IMPORTED_MODULE_18__["HomeComponent"],
+        _Componetes_rodape_rodape_component__WEBPACK_IMPORTED_MODULE_19__["RodapeComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
         _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormsModule"], _angular_fire__WEBPACK_IMPORTED_MODULE_5__["AngularFireModule"], _angular_fire_auth__WEBPACK_IMPORTED_MODULE_7__["AngularFireAuthModule"],
         primeng_button__WEBPACK_IMPORTED_MODULE_8__["ButtonModule"],
         primeng_inputtext__WEBPACK_IMPORTED_MODULE_9__["InputTextModule"],
@@ -568,7 +636,8 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _Componetes_cadastro_cadastro_component__WEBPACK_IMPORTED_MODULE_15__["CadastroComponent"],
                     _Componetes_validar_email_validar_email_component__WEBPACK_IMPORTED_MODULE_16__["ValidarEmailComponent"],
                     _Componetes_menu_menu_component__WEBPACK_IMPORTED_MODULE_17__["MenuComponent"],
-                    _Componetes_home_home_component__WEBPACK_IMPORTED_MODULE_18__["HomeComponent"]
+                    _Componetes_home_home_component__WEBPACK_IMPORTED_MODULE_18__["HomeComponent"],
+                    _Componetes_rodape_rodape_component__WEBPACK_IMPORTED_MODULE_19__["RodapeComponent"],
                 ],
                 imports: [
                     _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
